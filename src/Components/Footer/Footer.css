@@ -1,0 +1,18 @@
+.subscribe{
+    @apply pt-[72px] pb-[64px]
+}
+.subscribe p{
+    @apply w-[416px] pt-[24px] pb-[40px] text-[14px] font-Manrope font-normal text-[#585C7b]
+}
+.subscribe label{
+    @apply pb-2 text-[14px] font-Manrope font-semibold text-[#131022]
+}
+.subscribe h3{
+    @apply pt-[72px] text-[12px] font-normal font-Manrope text-[#585C7b]
+}
+.footer_right{
+    @apply text-[#3E4265] font-Manrope font-semibold text-[16px]
+}
+.footer_right ul li{
+    @apply pb-2
+}

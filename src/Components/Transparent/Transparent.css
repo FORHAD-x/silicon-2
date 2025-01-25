@@ -1,0 +1,34 @@
+.trial{
+@apply w-[416px] border-2 border-[#E2E5F1] rounded-lg transition-[.4s]
+}
+.trial:hover{
+    @apply scale-[1.001] shadow-[0px_1px_3px_0px_#8B5CF6]
+}
+.trial img{
+    @apply flex justify-center items-center
+}
+.trial .icon{
+    @apply flex justify-center items-center pt-[40px]
+}
+.basic{
+    @apply w-[336px] pt-[16px] pb-[18px] mx-auto border-b-2 border-[#E2E5F1]
+}
+.basic p{
+    @apply text-center text-[#9397AD] text-[20px] font-Manrope font-normal
+}
+.basic h3{
+    @apply text-center text-[#131022] text-[32px] font-Manrope font-extrabold
+}
+.trial_des{
+    @apply w-[336px] mx-auto pt-[14px] pb-[32px]
+}
+.trial_des p{
+    @apply pb-[8px] flex items-center gap-[8px] font-Manrope font-normal text-[14px] text-[#585C7B]
+}
+.Start_free button{
+    @apply py-[11px] px-[111px] bg-[#ffffff] border-2 border-[#6365f163] mx-auto mb-[40px] rounded-lg
+    transition-all duration-[.4s]
+}
+.Start_free button:hover{
+    @apply bg-[#6366F1] scale-[1.05] text-white
+}

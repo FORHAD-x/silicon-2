@@ -1,0 +1,9 @@
+.manage_work h2{
+    @apply  pt-[132px] pb-[32px] font-extrabold font-Manrope text-[32px] text-[#131022]
+}
+.manage_work p{
+    @apply pb-[12px] flex items-center gap-[8px] font-Manrope font-normal text-[16px] text-[#585C7B]
+}
+.manage_work button{
+    @apply mt-[20px] flex items-center gap-[8px] rounded-lg bg-[#6366F1] px-[28px] py-[11px] font-Manrope font-semibold text-[14px] text-white
+ }

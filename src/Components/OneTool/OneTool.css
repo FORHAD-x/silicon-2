@@ -1,0 +1,25 @@
+.OneTool button{
+    @apply mt-[20px] flex items-center gap-[8px] rounded-lg bg-[#6366F1] px-[28px] py-[11px] font-Manrope font-semibold text-[14px] text-white
+}
+.OneTool button:nth-child(2){
+    @apply  bg-[#EFF2FC] text-[#3E4265]
+}
+.OneTool button:nth-child(3){
+    @apply  bg-[#EFF2FC] text-[#3E4265]
+}
+.OneTool button:nth-child(4){
+    @apply  bg-[#EFF2FC] text-[#3E4265]
+}
+
+.project_manage{
+    @apply flex items-center justify-evenly py-[48px] bg-[#F3F6FF]
+}
+.project_manage-left{
+    @apply w-[416px] py-[126px] 
+}
+.project_manage-left h2{
+    @apply text-[28px] font-extrabold font-Manrope text-[#131022]
+}
+.project_manage-left p{
+    @apply w-[416px] text-[16px] font-normal font-Manrope text-[#585C7B]
+}
